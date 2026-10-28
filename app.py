@@ -32,7 +32,24 @@ from matplotlib.figure import Figure
 from matplotlib.patches import Wedge
 from scipy.stats import gaussian_kde
  
-# ZeroGPU Spaces need one @spaces.GPU function to start. It is never called (no GPU is used).
+# ZeroGPU Spaces need one @spaces.GPU function to start. It is never called 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# (no GPU is used).
 # The try/except keeps the app working on CPU hardware and on your own computer.
 try:
     import spaces
